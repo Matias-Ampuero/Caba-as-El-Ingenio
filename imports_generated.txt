@@ -1,0 +1,225 @@
+=== IMPORTS ===
+import w_cabana_0 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 57.webp";
+import w_cabana_1 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 58.webp";
+import w_cabana_2 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 66.webp";
+import w_cabana_3 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 70.webp";
+import w_cabana_4 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 73.webp";
+import w_cabana_5 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 77.webp";
+import w_cabana_6 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 78.webp";
+import w_cabana_7 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 84.webp";
+import w_cabana_8 from "../imports/optimizadas/Cabaña el ingenio/cabaña el inegenio 96.webp";
+import w_cabana_9 from "../imports/optimizadas/Cabaña el ingenio/cabaña el ingenio 97.webp";
+import w_domo_0 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo10.webp";
+import w_domo_1 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo11.webp";
+import w_domo_2 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo7.webp";
+import w_domo_3 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo8.webp";
+import w_domo_4 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo9.webp";
+import w_fotos_0 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 10.webp";
+import w_fotos_1 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 20.webp";
+import w_fotos_2 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 23.webp";
+import w_fotos_3 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 31.webp";
+import w_fotos_4 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 50.webp";
+import w_fotos_5 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 6.webp";
+import w_fotos_6 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  1.webp";
+import w_fotos_7 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  10.webp";
+import w_fotos_8 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  11.webp";
+import w_fotos_9 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  4.webp";
+import w_fotos_10 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  5.webp";
+import w_fotos_11 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  6.webp";
+import w_fotos_12 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  7.webp";
+import w_fotos_13 from "../imports/optimizadas/Fotos de servicio y comida/Tours y treking23.webp";
+import w_fotos_14 from "../imports/optimizadas/Fotos de servicio y comida/tour y treking 95.webp";
+import w_fotos_15 from "../imports/optimizadas/Fotos de servicio y comida/tours y treking 93.webp";
+import w_fotos_16 from "../imports/optimizadas/Fotos de servicio y comida/tours y trekking 97.webp";
+import w_tour_0 from "../imports/optimizadas/Tour y trekking/Tours y treking1.webp";
+import w_tour_1 from "../imports/optimizadas/Tour y trekking/Tours y treking11.webp";
+import w_tour_2 from "../imports/optimizadas/Tour y trekking/Tours y treking12.webp";
+import w_tour_3 from "../imports/optimizadas/Tour y trekking/Tours y treking13.webp";
+import w_tour_4 from "../imports/optimizadas/Tour y trekking/Tours y treking14.webp";
+import w_tour_5 from "../imports/optimizadas/Tour y trekking/Tours y treking15.webp";
+import w_tour_6 from "../imports/optimizadas/Tour y trekking/Tours y treking16.webp";
+import w_tour_7 from "../imports/optimizadas/Tour y trekking/Tours y treking17.webp";
+import w_tour_8 from "../imports/optimizadas/Tour y trekking/Tours y treking18.webp";
+import w_tour_9 from "../imports/optimizadas/Tour y trekking/Tours y treking19.webp";
+import w_tour_10 from "../imports/optimizadas/Tour y trekking/Tours y treking2.webp";
+import w_tour_11 from "../imports/optimizadas/Tour y trekking/Tours y treking20.webp";
+import w_tour_12 from "../imports/optimizadas/Tour y trekking/Tours y treking21.webp";
+import w_tour_13 from "../imports/optimizadas/Tour y trekking/Tours y treking22.webp";
+import w_tour_14 from "../imports/optimizadas/Tour y trekking/Tours y treking24.webp";
+import w_tour_15 from "../imports/optimizadas/Tour y trekking/Tours y treking25.webp";
+import w_tour_16 from "../imports/optimizadas/Tour y trekking/Tours y treking26.webp";
+import w_tour_17 from "../imports/optimizadas/Tour y trekking/Tours y treking3.webp";
+import w_tour_18 from "../imports/optimizadas/Tour y trekking/Tours y treking30.webp";
+import w_tour_19 from "../imports/optimizadas/Tour y trekking/Tours y treking31.webp";
+import w_tour_20 from "../imports/optimizadas/Tour y trekking/Tours y treking33.webp";
+import w_tour_21 from "../imports/optimizadas/Tour y trekking/Tours y treking34.webp";
+import w_tour_22 from "../imports/optimizadas/Tour y trekking/Tours y treking35.webp";
+import w_tour_23 from "../imports/optimizadas/Tour y trekking/Tours y treking36.webp";
+import w_tour_24 from "../imports/optimizadas/Tour y trekking/Tours y treking37.webp";
+import w_tour_25 from "../imports/optimizadas/Tour y trekking/Tours y treking38.webp";
+import w_tour_26 from "../imports/optimizadas/Tour y trekking/Tours y treking39.webp";
+import w_tour_27 from "../imports/optimizadas/Tour y trekking/Tours y treking4.webp";
+import w_tour_28 from "../imports/optimizadas/Tour y trekking/Tours y treking41.webp";
+import w_tour_29 from "../imports/optimizadas/Tour y trekking/Tours y treking42.webp";
+import w_tour_30 from "../imports/optimizadas/Tour y trekking/Tours y treking43.webp";
+import w_tour_31 from "../imports/optimizadas/Tour y trekking/Tours y treking44.webp";
+import w_tour_32 from "../imports/optimizadas/Tour y trekking/Tours y treking45.webp";
+import w_tour_33 from "../imports/optimizadas/Tour y trekking/Tours y treking46.webp";
+import w_tour_34 from "../imports/optimizadas/Tour y trekking/Tours y treking47.webp";
+import w_tour_35 from "../imports/optimizadas/Tour y trekking/Tours y treking48.webp";
+import w_tour_36 from "../imports/optimizadas/Tour y trekking/Tours y treking49.webp";
+import w_tour_37 from "../imports/optimizadas/Tour y trekking/Tours y treking5.webp";
+import w_tour_38 from "../imports/optimizadas/Tour y trekking/Tours y treking50.webp";
+import w_tour_39 from "../imports/optimizadas/Tour y trekking/Tours y treking51.webp";
+import w_tour_40 from "../imports/optimizadas/Tour y trekking/Tours y treking52.webp";
+import w_tour_41 from "../imports/optimizadas/Tour y trekking/Tours y treking53.webp";
+import w_tour_42 from "../imports/optimizadas/Tour y trekking/Tours y treking54.webp";
+import w_tour_43 from "../imports/optimizadas/Tour y trekking/Tours y treking55.webp";
+import w_tour_44 from "../imports/optimizadas/Tour y trekking/Tours y treking56.webp";
+import w_tour_45 from "../imports/optimizadas/Tour y trekking/Tours y treking57.webp";
+import w_tour_46 from "../imports/optimizadas/Tour y trekking/Tours y treking58.webp";
+import w_tour_47 from "../imports/optimizadas/Tour y trekking/Tours y treking59.webp";
+import w_tour_48 from "../imports/optimizadas/Tour y trekking/Tours y treking6.webp";
+import w_tour_49 from "../imports/optimizadas/Tour y trekking/Tours y treking60.webp";
+import w_tour_50 from "../imports/optimizadas/Tour y trekking/Tours y treking61.webp";
+import w_tour_51 from "../imports/optimizadas/Tour y trekking/Tours y treking62.webp";
+import w_tour_52 from "../imports/optimizadas/Tour y trekking/Tours y treking63.webp";
+import w_tour_53 from "../imports/optimizadas/Tour y trekking/Tours y treking64.webp";
+import w_tour_54 from "../imports/optimizadas/Tour y trekking/Tours y treking65.webp";
+import w_tour_55 from "../imports/optimizadas/Tour y trekking/Tours y treking66.webp";
+import w_tour_56 from "../imports/optimizadas/Tour y trekking/Tours y treking67.webp";
+import w_tour_57 from "../imports/optimizadas/Tour y trekking/Tours y treking68.webp";
+import w_tour_58 from "../imports/optimizadas/Tour y trekking/Tours y treking69.webp";
+import w_tour_59 from "../imports/optimizadas/Tour y trekking/Tours y treking7.webp";
+import w_tour_60 from "../imports/optimizadas/Tour y trekking/Tours y treking70.webp";
+import w_tour_61 from "../imports/optimizadas/Tour y trekking/Tours y treking72.webp";
+import w_tour_62 from "../imports/optimizadas/Tour y trekking/Tours y treking73.webp";
+import w_tour_63 from "../imports/optimizadas/Tour y trekking/Tours y treking74.webp";
+import w_tour_64 from "../imports/optimizadas/Tour y trekking/Tours y treking75.webp";
+import w_tour_65 from "../imports/optimizadas/Tour y trekking/Tours y treking76.webp";
+import w_tour_66 from "../imports/optimizadas/Tour y trekking/Tours y treking77.webp";
+import w_tour_67 from "../imports/optimizadas/Tour y trekking/Tours y treking78.webp";
+import w_tour_68 from "../imports/optimizadas/Tour y trekking/Tours y treking79.webp";
+import w_tour_69 from "../imports/optimizadas/Tour y trekking/Tours y treking8.webp";
+import w_tour_70 from "../imports/optimizadas/Tour y trekking/Tours y treking80.webp";
+import w_tour_71 from "../imports/optimizadas/Tour y trekking/Tours y treking81.webp";
+import w_tour_72 from "../imports/optimizadas/Tour y trekking/Tours y treking82.webp";
+import w_tour_73 from "../imports/optimizadas/Tour y trekking/Tours y treking83.webp";
+import w_tour_74 from "../imports/optimizadas/Tour y trekking/Tours y treking84.webp";
+import w_tour_75 from "../imports/optimizadas/Tour y trekking/Tours y treking9.webp";
+
+=== ARRAYS ===
+Array: cabana
+      w_cabana_0,
+      w_cabana_1,
+      w_cabana_2,
+      w_cabana_3,
+      w_cabana_4,
+      w_cabana_5,
+      w_cabana_6,
+      w_cabana_7,
+      w_cabana_8,
+      w_cabana_9,
+Array: domo
+      w_domo_0,
+      w_domo_1,
+      w_domo_2,
+      w_domo_3,
+      w_domo_4,
+Array: fotos
+      w_fotos_0,
+      w_fotos_1,
+      w_fotos_2,
+      w_fotos_3,
+      w_fotos_4,
+      w_fotos_5,
+      w_fotos_6,
+      w_fotos_7,
+      w_fotos_8,
+      w_fotos_9,
+      w_fotos_10,
+      w_fotos_11,
+      w_fotos_12,
+      w_fotos_13,
+      w_fotos_14,
+      w_fotos_15,
+      w_fotos_16,
+Array: refugio
+
+Array: tour
+      w_tour_0,
+      w_tour_1,
+      w_tour_2,
+      w_tour_3,
+      w_tour_4,
+      w_tour_5,
+      w_tour_6,
+      w_tour_7,
+      w_tour_8,
+      w_tour_9,
+      w_tour_10,
+      w_tour_11,
+      w_tour_12,
+      w_tour_13,
+      w_tour_14,
+      w_tour_15,
+      w_tour_16,
+      w_tour_17,
+      w_tour_18,
+      w_tour_19,
+      w_tour_20,
+      w_tour_21,
+      w_tour_22,
+      w_tour_23,
+      w_tour_24,
+      w_tour_25,
+      w_tour_26,
+      w_tour_27,
+      w_tour_28,
+      w_tour_29,
+      w_tour_30,
+      w_tour_31,
+      w_tour_32,
+      w_tour_33,
+      w_tour_34,
+      w_tour_35,
+      w_tour_36,
+      w_tour_37,
+      w_tour_38,
+      w_tour_39,
+      w_tour_40,
+      w_tour_41,
+      w_tour_42,
+      w_tour_43,
+      w_tour_44,
+      w_tour_45,
+      w_tour_46,
+      w_tour_47,
+      w_tour_48,
+      w_tour_49,
+      w_tour_50,
+      w_tour_51,
+      w_tour_52,
+      w_tour_53,
+      w_tour_54,
+      w_tour_55,
+      w_tour_56,
+      w_tour_57,
+      w_tour_58,
+      w_tour_59,
+      w_tour_60,
+      w_tour_61,
+      w_tour_62,
+      w_tour_63,
+      w_tour_64,
+      w_tour_65,
+      w_tour_66,
+      w_tour_67,
+      w_tour_68,
+      w_tour_69,
+      w_tour_70,
+      w_tour_71,
+      w_tour_72,
+      w_tour_73,
+      w_tour_74,
+      w_tour_75,
