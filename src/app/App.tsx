@@ -1,17 +1,17 @@
 import Reviews from './Reviews';
-import img_embalse_yeso from "../imports/optimizadas/Rutas/Glaciares/Embalse el yeso.jpg";
-import img_nieves_negras from "../imports/optimizadas/Rutas/Glaciares/Glacias nieves negras .jpg";
-import img_laguna_rubilla from "../imports/optimizadas/Rutas/Glaciares/laguna rubilla .jpg";
-import img_sector_morado from "../imports/optimizadas/Rutas/Glaciares/sector el morado .jpeg";
-import img_termas_colina from "../imports/optimizadas/Rutas/Termas/Termas valle de colina .jpg";
-import img_tour_2 from "../imports/optimizadas/Rutas/Glaciares/Tours y treking2.png";
-import img_tour_9 from "../imports/optimizadas/Rutas/Glaciares/Tours y treking9.png";
+import img_embalse_yeso from "../imports/optimizadas/rutas/glaciares/embalse_el_yeso.jpg";
+import img_nieves_negras from "../imports/optimizadas/rutas/glaciares/glacias_nieves_negras_.jpg";
+import img_laguna_rubilla from "../imports/optimizadas/rutas/glaciares/laguna_rubilla_.jpg";
+import img_sector_morado from "../imports/optimizadas/rutas/glaciares/sector_el_morado_.jpeg";
+import img_termas_colina from "../imports/optimizadas/rutas/termas/termas_valle_de_colina_.jpg";
+import img_tour_2 from "../imports/optimizadas/rutas/glaciares/tours_y_treking2.png";
+import img_tour_9 from "../imports/optimizadas/rutas/glaciares/tours_y_treking9.png";
 
-import img_laguna_negra from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra.jpeg";
-import img_laguna_negra_2 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/LAGUNA NEGRA 2.jpeg";
-import img_laguna_negra_3 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 3.jpeg";
-import img_laguna_negra_4 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 4.jpeg";
-import img_laguna_negra_5 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 5.jpeg";
+import img_laguna_negra from "../imports/optimizadas/rutas/laguna_negra/laguna_negra.jpeg";
+import img_laguna_negra_2 from "../imports/optimizadas/rutas/laguna_negra/laguna_negra_2.jpeg";
+import img_laguna_negra_3 from "../imports/optimizadas/rutas/laguna_negra/laguna_negra_3.jpeg";
+import img_laguna_negra_4 from "../imports/optimizadas/rutas/laguna_negra/laguna_negra_4.jpeg";
+import img_laguna_negra_5 from "../imports/optimizadas/rutas/laguna_negra/laguna_negra_5.jpeg";
 import React, { useState, useEffect } from "react";
 import {
   Calendar,
@@ -31,78 +31,78 @@ import {
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import w_cabañaelingenio_0 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 57.webp";
-import w_cabañaelingenio_1 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 58.webp";
-import w_cabañaelingenio_2 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 66.webp";
-import w_cabañaelingenio_3 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 70.webp";
-import w_cabañaelingenio_4 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 73.webp";
-import w_cabañaelingenio_5 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 77.webp";
-import w_cabañaelingenio_6 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 78.webp";
-import w_cabañaelingenio_7 from "../imports/optimizadas/Cabaña el ingenio/Cabaña el ingenio 84.webp";
-import w_cabañaelingenio_8 from "../imports/optimizadas/Cabaña el ingenio/cabaña el ingenio 97.webp";
-import w_cabañaelingenio_9 from "../imports/optimizadas/Cabaña el ingenio/cabaña el ingenio 96.webp";
-import w_domomarmolejo_0 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo7.webp";
-import w_domomarmolejo_1 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo8.webp";
-import w_domomarmolejo_2 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo9.webp";
-import w_domomarmolejo_3 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo10.webp";
-import w_domomarmolejo_4 from "../imports/optimizadas/Domo Marmolejo/Domos Marmolejo11.webp";
-import w_domomarmolejo_5 from "../imports/optimizadas/Domo Marmolejo/Domo marmolejo 22.avif";
-import w_domomarmolejo_6 from "../imports/optimizadas/Domo Marmolejo/Domo marmolejo 23.avif";
-import w_domomarmolejo_7 from "../imports/optimizadas/Domo Marmolejo/Domo marmolejo 24.avif";
-import w_domomarmolejo_8 from "../imports/optimizadas/Domo Marmolejo/Domo marmolejo 26 .avif";
-import w_domomarmolejo_9 from "../imports/optimizadas/Domo Marmolejo/Domo marmolejo 27.avif";
-import w_domoestrellado_0 from "../imports/optimizadas/Domo estrellado/Domo Estrellado10.webp";
-import w_domoestrellado_1 from "../imports/optimizadas/Domo estrellado/Domo Estrellado14.webp";
-import w_domoestrellado_2 from "../imports/optimizadas/Domo estrellado/Domo Estrellado15.webp";
-import w_domoestrellado_3 from "../imports/optimizadas/Domo estrellado/Domo Estrellado16.webp";
-import w_domoestrellado_4 from "../imports/optimizadas/Domo estrellado/Domo Estrellado17.webp";
-import w_domoestrellado_5 from "../imports/optimizadas/Domo estrellado/Domo Estrellado18.webp";
-import w_domoestrellado_6 from "../imports/optimizadas/Domo estrellado/Domo Estrellado19.webp";
-import w_domoestrellado_7 from "../imports/optimizadas/Domo estrellado/Domo Estrellado22.webp";
-import w_domoestrellado_8 from "../imports/optimizadas/Domo estrellado/Domo Estrellado23.webp";
-import w_domoestrellado_9 from "../imports/optimizadas/Domo estrellado/Domo Estrellado4.webp";
-import w_fotosdeservicioycomida_0 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 10.webp";
-import w_fotosdeservicioycomida_1 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 20.webp";
-import w_fotosdeservicioycomida_2 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 23.webp";
-import w_fotosdeservicioycomida_3 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 31.webp";
-import w_fotosdeservicioycomida_4 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 50.webp";
-import w_fotosdeservicioycomida_5 from "../imports/optimizadas/Fotos de servicio y comida/Cabaña el ingenio 6.webp";
-import w_fotosdeservicioycomida_6 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  1.webp";
-import w_fotosdeservicioycomida_7 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  10.webp";
-import w_fotosdeservicioycomida_8 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  11.webp";
-import w_fotosdeservicioycomida_9 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  4.webp";
-import w_fotosdeservicioycomida_10 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  5.webp";
-import w_fotosdeservicioycomida_11 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  6.webp";
-import w_fotosdeservicioycomida_12 from "../imports/optimizadas/Fotos de servicio y comida/Fotos servicios Y comida  7.webp";
-import w_fotosdeservicioycomida_13 from "../imports/optimizadas/Fotos de servicio y comida/Tours y treking23.webp";
-import w_fotosdeservicioycomida_14 from "../imports/optimizadas/Fotos de servicio y comida/tour y treking 95.webp";
-import w_fotosdeservicioycomida_15 from "../imports/optimizadas/Fotos de servicio y comida/tours y treking 93.webp";
-import w_fotosdeservicioycomida_16 from "../imports/optimizadas/Fotos de servicio y comida/tours y trekking 97.webp";
+import w_cabañaelingenio_0 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_57.webp";
+import w_cabañaelingenio_1 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_58.webp";
+import w_cabañaelingenio_2 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_66.webp";
+import w_cabañaelingenio_3 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_70.webp";
+import w_cabañaelingenio_4 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_73.webp";
+import w_cabañaelingenio_5 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_77.webp";
+import w_cabañaelingenio_6 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_78.webp";
+import w_cabañaelingenio_7 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_84.webp";
+import w_cabañaelingenio_8 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_97.webp";
+import w_cabañaelingenio_9 from "../imports/optimizadas/cabana_el_ingenio/cabana_el_ingenio_96.webp";
+import w_domomarmolejo_0 from "../imports/optimizadas/domo_marmolejo/domos_marmolejo7.webp";
+import w_domomarmolejo_1 from "../imports/optimizadas/domo_marmolejo/domos_marmolejo8.webp";
+import w_domomarmolejo_2 from "../imports/optimizadas/domo_marmolejo/domos_marmolejo9.webp";
+import w_domomarmolejo_3 from "../imports/optimizadas/domo_marmolejo/domos_marmolejo10.webp";
+import w_domomarmolejo_4 from "../imports/optimizadas/domo_marmolejo/domos_marmolejo11.webp";
+import w_domomarmolejo_5 from "../imports/optimizadas/domo_marmolejo/domo_marmolejo_22.avif";
+import w_domomarmolejo_6 from "../imports/optimizadas/domo_marmolejo/domo_marmolejo_23.avif";
+import w_domomarmolejo_7 from "../imports/optimizadas/domo_marmolejo/domo_marmolejo_24.avif";
+import w_domomarmolejo_8 from "../imports/optimizadas/domo_marmolejo/domo_marmolejo_26_.avif";
+import w_domomarmolejo_9 from "../imports/optimizadas/domo_marmolejo/domo_marmolejo_27.avif";
+import w_domoestrellado_0 from "../imports/optimizadas/domo_estrellado/domo_estrellado10.webp";
+import w_domoestrellado_1 from "../imports/optimizadas/domo_estrellado/domo_estrellado14.webp";
+import w_domoestrellado_2 from "../imports/optimizadas/domo_estrellado/domo_estrellado15.webp";
+import w_domoestrellado_3 from "../imports/optimizadas/domo_estrellado/domo_estrellado16.webp";
+import w_domoestrellado_4 from "../imports/optimizadas/domo_estrellado/domo_estrellado17.webp";
+import w_domoestrellado_5 from "../imports/optimizadas/domo_estrellado/domo_estrellado18.webp";
+import w_domoestrellado_6 from "../imports/optimizadas/domo_estrellado/domo_estrellado19.webp";
+import w_domoestrellado_7 from "../imports/optimizadas/domo_estrellado/domo_estrellado22.webp";
+import w_domoestrellado_8 from "../imports/optimizadas/domo_estrellado/domo_estrellado23.webp";
+import w_domoestrellado_9 from "../imports/optimizadas/domo_estrellado/domo_estrellado4.webp";
+import w_fotosdeservicioycomida_0 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_10.webp";
+import w_fotosdeservicioycomida_1 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_20.webp";
+import w_fotosdeservicioycomida_2 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_23.webp";
+import w_fotosdeservicioycomida_3 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_31.webp";
+import w_fotosdeservicioycomida_4 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_50.webp";
+import w_fotosdeservicioycomida_5 from "../imports/optimizadas/fotos_de_servicio_y_comida/cabana_el_ingenio_6.webp";
+import w_fotosdeservicioycomida_6 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__1.webp";
+import w_fotosdeservicioycomida_7 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__10.webp";
+import w_fotosdeservicioycomida_8 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__11.webp";
+import w_fotosdeservicioycomida_9 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__4.webp";
+import w_fotosdeservicioycomida_10 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__5.webp";
+import w_fotosdeservicioycomida_11 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__6.webp";
+import w_fotosdeservicioycomida_12 from "../imports/optimizadas/fotos_de_servicio_y_comida/fotos_servicios_y_comida__7.webp";
+import w_fotosdeservicioycomida_13 from "../imports/optimizadas/fotos_de_servicio_y_comida/tours_y_treking23.webp";
+import w_fotosdeservicioycomida_14 from "../imports/optimizadas/fotos_de_servicio_y_comida/tour_y_treking_95.webp";
+import w_fotosdeservicioycomida_15 from "../imports/optimizadas/fotos_de_servicio_y_comida/tours_y_treking_93.webp";
+import w_fotosdeservicioycomida_16 from "../imports/optimizadas/fotos_de_servicio_y_comida/tours_y_trekking_97.webp";
 
-import heroBg from "../imports/optimizadas/Seccion nosotros/cajon_del_maipo_nevado.jpg";
+import heroBg from "../imports/optimizadas/seccion_nosotros/cajon_del_maipo_nevado.jpg";
 import logoImg from "../imports/logo_transparente.png";
-import video1 from "../imports/optimizadas/Videos/Toma dron 1 .mp4";
-import video2 from "../imports/optimizadas/Videos/Toma dron 2 .mp4";
-import nos1 from "../imports/optimizadas/Seccion nosotros/67273B04-B275-4934-A4B7-CE41F7D950FE.png";
-import nos2 from "../imports/optimizadas/Seccion nosotros/Copia de Cabaña el ingenio 50.webp";
-import nos3 from "../imports/optimizadas/Seccion nosotros/Copia de Cabaña el ingenio 6.webp";
-import nos4 from "../imports/optimizadas/Seccion nosotros/Copia de cabaña el inegenio 96.webp";
-import nos5 from "../imports/optimizadas/Seccion nosotros/Copia de tour y treking 95.webp";
-import nos6 from "../imports/optimizadas/Seccion nosotros/DC41371B-49A1-4870-9596-E24EE0A7C483.png";
-import nos7 from "../imports/optimizadas/Seccion nosotros/Tours y treking28.webp";
-import nos8 from "../imports/optimizadas/Seccion nosotros/cajon_del_maipo_nevado.jpg";
-import nos9 from "../imports/optimizadas/Seccion nosotros/tours y treking 85.webp";
-import nos10 from "../imports/optimizadas/Seccion nosotros/tours y treking 86.webp";
-import nos11 from "../imports/optimizadas/Seccion nosotros/tours y treking 87.webp";
-import nos12 from "../imports/optimizadas/Seccion nosotros/tours y treking 88.webp";
-import nos13 from "../imports/optimizadas/Seccion nosotros/tours y treking 89.webp";
-import nos14 from "../imports/optimizadas/Seccion nosotros/tours y treking 90.webp";
-import nos15 from "../imports/optimizadas/Seccion nosotros/tours y treking 91.webp";
-import nos16 from "../imports/optimizadas/Seccion nosotros/tours y treking 92.webp";
-import nos17 from "../imports/optimizadas/Seccion nosotros/tours y treking 94.webp";
-import nos18 from "../imports/optimizadas/Seccion nosotros/tours y treking 99.webp";
-import nos19 from "../imports/optimizadas/Seccion nosotros/tours y trekking 98.webp";
-import tour_trekking_38 from "../imports/optimizadas/Tour y trekking/Tours y treking38.png";
+import video1 from "../imports/optimizadas/videos/toma_dron_1_.mp4";
+import video2 from "../imports/optimizadas/videos/toma_dron_2_.mp4";
+import nos1 from "../imports/optimizadas/seccion_nosotros/67273b04-b275-4934-a4b7-ce41f7d950fe.png";
+import nos2 from "../imports/optimizadas/seccion_nosotros/Copia de cabana_el_ingenio_50.webp";
+import nos3 from "../imports/optimizadas/seccion_nosotros/Copia de cabana_el_ingenio_6.webp";
+import nos4 from "../imports/optimizadas/seccion_nosotros/copia_de_cabana_el_inegenio_96.webp";
+import nos5 from "../imports/optimizadas/seccion_nosotros/Copia de tour_y_treking_95.webp";
+import nos6 from "../imports/optimizadas/seccion_nosotros/dc41371b-49a1-4870-9596-e24ee0a7c483.png";
+import nos7 from "../imports/optimizadas/seccion_nosotros/tours_y_treking28.webp";
+import nos8 from "../imports/optimizadas/seccion_nosotros/cajon_del_maipo_nevado.jpg";
+import nos9 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_85.webp";
+import nos10 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_86.webp";
+import nos11 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_87.webp";
+import nos12 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_88.webp";
+import nos13 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_89.webp";
+import nos14 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_90.webp";
+import nos15 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_91.webp";
+import nos16 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_92.webp";
+import nos17 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_94.webp";
+import nos18 from "../imports/optimizadas/seccion_nosotros/tours_y_treking_99.webp";
+import nos19 from "../imports/optimizadas/seccion_nosotros/tours_y_trekking_98.webp";
+import tour_trekking_38 from "../imports/optimizadas/tour_y_trekking/tours_y_treking38.png";
 
 
 
@@ -120,13 +120,13 @@ const TiktokIcon = (props: React.SVGProps<SVGSVGElement>) => (
 const ACCOMMODATIONS = [
   {
     id: "marmolejo",
-    name: "Domo Marmolejo",
+    name: "domo_marmolejo",
     capacity: "2 A 4 PERSONAS",
     price: "$70.000",
     shortDesc:
       "Vive una experiencia única bajo las estrellas. Cuenta con cama matrimonial en 2do nivel, dos camas individuales...",
     longDesc:
-      "Escápate de la rutina y vive una experiencia inolvidable en nuestro Domo Marmolejo. Diseñado para recibir hasta 4 personas, es el lugar perfecto para conectar con la naturaleza sin perder comodidad. Relájate bajo las estrellas en nuestra tinaja de agua caliente y descubre los increíbles paisajes del Cajón del Maipo.",
+      "Escápate de la rutina y vive una experiencia inolvidable en nuestro domo_marmolejo. Diseñado para recibir hasta 4 personas, es el lugar perfecto para conectar con la naturaleza sin perder comodidad. Relájate bajo las estrellas en nuestra tinaja de agua caliente y descubre los increíbles paisajes del Cajón del Maipo.",
     amenities: [
       "Cama matrimonial (2do nivel)",
       "Dos camas individuales (1er piso)",
@@ -214,56 +214,56 @@ const ACCOMMODATIONS = [
 ];
 
 
-import botella_1 from "../imports/optimizadas/Merch/Botella_.jpeg";
-import botella_2 from "../imports/optimizadas/Merch/Botella.jpeg";
+import botella_1 from "../imports/optimizadas/merch/botella_.jpeg";
+import botella_2 from "../imports/optimizadas/merch/botella.jpeg";
 
-import cuello_1 from "../imports/optimizadas/Merch/Cuellos_.jpeg";
+import cuello_1 from "../imports/optimizadas/merch/cuellos_.jpeg";
 
-import jockey_1 from "../imports/optimizadas/Merch/Jockey_1.jpeg";
-import jockey_2 from "../imports/optimizadas/Merch/jockey_2.jpeg";
-import jockey_4 from "../imports/optimizadas/Merch/Jockey_4.jpeg";
-import jockey_5 from "../imports/optimizadas/Merch/Jockey_5.jpeg";
+import jockey_1 from "../imports/optimizadas/merch/jockey_1.jpeg";
+import jockey_2 from "../imports/optimizadas/merch/jockey_2.jpeg";
+import jockey_4 from "../imports/optimizadas/merch/jockey_4.jpeg";
+import jockey_5 from "../imports/optimizadas/merch/jockey_5.jpeg";
 
-import polera_1 from "../imports/optimizadas/Merch/Polera_1.jpeg";
-import polera_3 from "../imports/optimizadas/Merch/Polera_3.jpeg";
-import polera_4 from "../imports/optimizadas/Merch/Poleras_4.jpeg";
-import polera_6a from "../imports/optimizadas/Merch/Polera_6.jpeg";
-import polera_6b from "../imports/optimizadas/Merch/Poleras_6.jpeg";
-import polera_7 from "../imports/optimizadas/Merch/Polera_7.jpeg";
+import polera_1 from "../imports/optimizadas/merch/polera_1.jpeg";
+import polera_3 from "../imports/optimizadas/merch/polera_3.jpeg";
+import polera_4 from "../imports/optimizadas/merch/poleras_4.jpeg";
+import polera_6a from "../imports/optimizadas/merch/polera_6.jpeg";
+import polera_6b from "../imports/optimizadas/merch/poleras_6.jpeg";
+import polera_7 from "../imports/optimizadas/merch/polera_7.jpeg";
 
-import shopero_1 from "../imports/optimizadas/Merch/Shopero_1.jpeg";
-import shopero_2 from "../imports/optimizadas/Merch/Shopero_2.jpeg";
-import shopero_3 from "../imports/optimizadas/Merch/Shopero_3.jpeg";
-import shopero_4 from "../imports/optimizadas/Merch/Shopero_4.jpeg";
+import shopero_1 from "../imports/optimizadas/merch/shopero_1.jpeg";
+import shopero_2 from "../imports/optimizadas/merch/shopero_2.jpeg";
+import shopero_3 from "../imports/optimizadas/merch/shopero_3.jpeg";
+import shopero_4 from "../imports/optimizadas/merch/shopero_4.jpeg";
 
-import sombrero_1 from "../imports/optimizadas/Merch/Sombrero_aventurero.jpeg";
-import sombrero_1_alt from "../imports/optimizadas/Merch/Sombrero_aventurero-1.jpeg";
-import sombrero_2 from "../imports/optimizadas/Merch/Sombrero_aventurero_2.jpeg";
-import sombrero_3 from "../imports/optimizadas/Merch/Sombrero_aventurero_3.jpeg";
-import sombrero_4 from "../imports/optimizadas/Merch/Sombrero_aventurero_4.jpeg";
-import sombrero_5 from "../imports/optimizadas/Merch/Sombrero_aventurero_5.jpeg";
-import sombrero_6 from "../imports/optimizadas/Merch/Sombrero_aventurero_6.jpeg";
-import sombrero_7 from "../imports/optimizadas/Merch/Sombrero_aventurero_7.jpeg";
-import sombrero_8 from "../imports/optimizadas/Merch/Sombrero_aventurero_8.jpeg";
+import sombrero_1 from "../imports/optimizadas/merch/sombrero_aventurero.jpeg";
+import sombrero_1_alt from "../imports/optimizadas/merch/sombrero_aventurero-1.jpeg";
+import sombrero_2 from "../imports/optimizadas/merch/sombrero_aventurero_2.jpeg";
+import sombrero_3 from "../imports/optimizadas/merch/sombrero_aventurero_3.jpeg";
+import sombrero_4 from "../imports/optimizadas/merch/sombrero_aventurero_4.jpeg";
+import sombrero_5 from "../imports/optimizadas/merch/sombrero_aventurero_5.jpeg";
+import sombrero_6 from "../imports/optimizadas/merch/sombrero_aventurero_6.jpeg";
+import sombrero_7 from "../imports/optimizadas/merch/sombrero_aventurero_7.jpeg";
+import sombrero_8 from "../imports/optimizadas/merch/sombrero_aventurero_8.jpeg";
 
-import sticker_1 from "../imports/optimizadas/Merch/Sticker.jpeg";
-import sticker_2 from "../imports/optimizadas/Merch/stickers.jpeg";
+import sticker_1 from "../imports/optimizadas/merch/sticker.jpeg";
+import sticker_2 from "../imports/optimizadas/merch/stickers.jpeg";
 
-import tazon_xl_1 from "../imports/optimizadas/Merch/Tazon XL.jpeg";
-import tazon_xl_2 from "../imports/optimizadas/Merch/taza XL2.jpeg";
+import tazon_xl_1 from "../imports/optimizadas/merch/tazon_xl.jpeg";
+import tazon_xl_2 from "../imports/optimizadas/merch/taza_xl2.jpeg";
 
-import tazon_enl_1 from "../imports/optimizadas/Merch/Tazon_Enlozado 1.jpeg";
-import tazon_enl_2 from "../imports/optimizadas/Merch/Tazon_Enlozado2.jpeg";
-import tazon_enl_3 from "../imports/optimizadas/Merch/Tazon_Enlozado3.jpeg";
-import tazon_enl_4 from "../imports/optimizadas/Merch/Tazon_Enlozado4.jpeg";
-import tazon_enl_5 from "../imports/optimizadas/Merch/Tazon_Enlozado5.jpeg";
-import tazon_enl_6 from "../imports/optimizadas/Merch/Tazon_Enlozado6.jpeg";
-import tazon_enl_7 from "../imports/optimizadas/Merch/Tazon_Enlozado7.jpeg";
-import tazon_enl_8 from "../imports/optimizadas/Merch/Tazon_Enlozado 8.jpeg";
-import tazon_enl_9 from "../imports/optimizadas/Merch/Tazon_Enlozado9.jpeg";
+import tazon_enl_1 from "../imports/optimizadas/merch/tazon_enlozado_1.jpeg";
+import tazon_enl_2 from "../imports/optimizadas/merch/tazon_enlozado2.jpeg";
+import tazon_enl_3 from "../imports/optimizadas/merch/tazon_enlozado3.jpeg";
+import tazon_enl_4 from "../imports/optimizadas/merch/tazon_enlozado4.jpeg";
+import tazon_enl_5 from "../imports/optimizadas/merch/tazon_enlozado5.jpeg";
+import tazon_enl_6 from "../imports/optimizadas/merch/tazon_enlozado6.jpeg";
+import tazon_enl_7 from "../imports/optimizadas/merch/tazon_enlozado7.jpeg";
+import tazon_enl_8 from "../imports/optimizadas/merch/tazon_enlozado_8.jpeg";
+import tazon_enl_9 from "../imports/optimizadas/merch/tazon_enlozado9.jpeg";
 
-import termo_1 from "../imports/optimizadas/Merch/Termos.jpeg";
-import termo_2 from "../imports/optimizadas/Merch/termo.jpeg";
+import termo_1 from "../imports/optimizadas/merch/termos.jpeg";
+import termo_2 from "../imports/optimizadas/merch/termo.jpeg";
 
 const MERCH_ITEMS = [
   {
@@ -391,15 +391,15 @@ const EXPEDITIONS = [
     images: [img_laguna_negra, img_laguna_negra_2, img_laguna_negra_3, img_laguna_negra_4, img_laguna_negra_5]
   },
   {
-    title: "Glaciares y Valles",
+    title: "glaciares y Valles",
     desc: "Visitaremos el sector de Morados, el Valle La Engorda, el histórico Refugio Plantat, la Laguna Rubilla y culminaremos con la vista del majestuoso Glaciar Nieves Negras.",
     difficulty: "Dificultad Alta",
     duration: "Día Completo",
     images: [img_embalse_yeso, img_nieves_negras, img_laguna_rubilla, img_sector_morado, img_tour_9]
   },
   {
-    title: "Termas y Atractivos",
-    desc: "Un recorrido icónico por la cordillera. Pasaremos por el imponente Embalse El Yeso, la Cascada Velo de la Novia, Baños Morales y cerraremos con un merecido relajo en las Termas Valle de Colina.",
+    title: "termas y Atractivos",
+    desc: "Un recorrido icónico por la cordillera. Pasaremos por el imponente Embalse El Yeso, la Cascada Velo de la Novia, Baños Morales y cerraremos con un merecido relajo en las termas Valle de Colina.",
     difficulty: "Dificultad Baja",
     duration: "Todo el Día",
     images: [img_termas_colina, img_tour_2]
@@ -407,7 +407,7 @@ const EXPEDITIONS = [
 ];
 
 const generalTourImages = Object.values(
-  import.meta.glob('../imports/optimizadas/Tour y trekking/*.{png,jpg,jpeg,webp}', { eager: true, import: 'default' })
+  import.meta.glob('../imports/optimizadas/tour_y_trekking/*.{png,jpg,jpeg,webp}', { eager: true, import: 'default' })
 ).filter(img => {
   const src = typeof img === 'string' ? img : (img && (img as any).default ? (img as any).default : String(img));
   const s = decodeURIComponent(src).toLowerCase();
@@ -438,12 +438,12 @@ export default function App() {
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
   const [huespedes, setHuespedes] = useState("2 Personas");
-  const [alojamiento, setAlojamiento] = useState("Domo Marmolejo");
+  const [alojamiento, setAlojamiento] = useState("domo_marmolejo");
 
   const [selectedRefugio, setSelectedRefugio] = useState<
     (typeof ACCOMMODATIONS)[0] | null
   >(null);
-  const [selectedMerch, setSelectedMerch] = useState<
+  const [selectedmerch, setSelectedmerch] = useState<
     (typeof MERCH_ITEMS)[0] | null
   >(null);
   const [activeExpedition, setActiveExpedition] = useState(0);
@@ -590,7 +590,7 @@ export default function App() {
               <h2
                 className={`${UI_CLASSES.heading} text-4xl md:text-5xl text-[#C8A96E] mb-4 mt-20 md:mt-0`}
               >
-                Rutas & Expediciones
+                rutas & Expediciones
               </h2>
               <p className="text-[#9A9690] mb-12 leading-relaxed text-base max-w-2xl">
                 Descubre los detalles de cada uno de los
@@ -701,7 +701,7 @@ export default function App() {
                   <div
                     key={item.id}
                     className="group flex flex-col bg-transparent border border-[#C8A96E]/20 hover:border-[#C8A96E] transition-colors cursor-pointer"
-                    onClick={() => setSelectedMerch(item)}
+                    onClick={() => setSelectedmerch(item)}
                   >
                     <div className="relative aspect-[4/3] overflow-hidden border-b border-[#C8A96E]/20 p-8 flex items-center justify-center">
                       <img
@@ -918,33 +918,33 @@ export default function App() {
           </div>
         )}
 
-        {selectedMerch && (
+        {selectedmerch && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 md:p-12">
             <div
               className="absolute inset-0 bg-[#1C1F1A]/90 backdrop-blur-sm transition-opacity"
-              onClick={() => setSelectedMerch(null)}
+              onClick={() => setSelectedmerch(null)}
             ></div>
             <div className="relative w-full max-w-4xl max-h-[95vh] overflow-y-auto bg-black/10 backdrop-blur-md border border-[#C8A96E] flex flex-col lg:flex-row">
               <button
-                onClick={() => setSelectedMerch(null)}
+                onClick={() => setSelectedmerch(null)}
                 className="absolute top-4 right-4 z-10 flex h-10 w-10 items-center justify-center bg-[#1C1F1A] border border-[#C8A96E] text-[#C8A96E] hover:bg-[#C8A96E] hover:text-black transition-colors"
               >
                 <X className="h-5 w-5" strokeWidth={1} />
               </button>
               <div className="w-full lg:w-1/2 bg-transparent flex items-center justify-center border-r border-[#C8A96E]/20 min-w-0">
-                {selectedMerch.images.length > 1 ? (
+                {selectedmerch.images.length > 1 ? (
                   <Slider
                     {...sliderSettings}
                     className="w-full aspect-[4/3] slider-container"
                   >
-                    {selectedMerch.images.map((img, idx, array) => (
+                    {selectedmerch.images.map((img, idx, array) => (
                       <div
                         key={idx}
                         className="outline-none aspect-[4/3] overflow-hidden relative p-12 flex items-center justify-center"
                       >
                         <img
                           src={img}
-                          alt={`${selectedMerch.name} ${idx + 1}`}
+                          alt={`${selectedmerch.name} ${idx + 1}`}
                           className="w-full h-full object-contain transition-transform duration-700 hover:scale-105 cursor-zoom-in"
                           onClick={() =>
                             setLightbox({ images: array as string[], index: idx })
@@ -956,11 +956,11 @@ export default function App() {
                 ) : (
                   <div className="w-full aspect-[4/3] overflow-hidden relative p-12 flex items-center justify-center">
                     <img
-                      src={selectedMerch.images[0]}
-                      alt={selectedMerch.name}
+                      src={selectedmerch.images[0]}
+                      alt={selectedmerch.name}
                       className="w-full h-full object-contain transition-transform duration-700 hover:scale-105 cursor-zoom-in"
                       onClick={() =>
-                        setLightbox({ images: [selectedMerch.images[0]], index: 0 })
+                        setLightbox({ images: [selectedmerch.images[0]], index: 0 })
                       }
                     />
                   </div>
@@ -970,19 +970,19 @@ export default function App() {
                 <h2
                   className={`${UI_CLASSES.heading} text-3xl sm:text-5xl text-[#C8A96E] mb-6`}
                 >
-                  {selectedMerch.name}
+                  {selectedmerch.name}
                 </h2>
                 <div className="mb-8">
                   <span className="text-[#C8A96E] font-['DM_Sans',sans-serif] uppercase tracking-[0.1em] text-xs font-medium">
-                    VALOR: {selectedMerch.price}
+                    VALOR: {selectedmerch.price}
                   </span>
                 </div>
                 <p className="text-[#9A9690] mb-12 leading-relaxed text-base">
-                  {selectedMerch.longDesc}
+                  {selectedmerch.longDesc}
                 </p>
                 <div className="mt-auto pt-8 border-t border-[#C8A96E]/30">
                   <a
-                    href={`https://wa.me/${phoneNumber}?text=Hola,%20me%20interesa%20comprar%20el%20souvenir:%20${selectedMerch.name}`}
+                    href={`https://wa.me/${phoneNumber}?text=Hola,%20me%20interesa%20comprar%20el%20souvenir:%20${selectedmerch.name}`}
                     target="_blank"
                     rel="noreferrer"
                     className={`${UI_CLASSES.buttonPrimary} w-full`}
@@ -1156,7 +1156,7 @@ export default function App() {
                       </label>
                       <div className="space-y-4 mb-10 mt-6">
                         {[
-                          "Domo Marmolejo",
+                          "domo_marmolejo",
                           "Domo Estrellado",
                           "Cabaña El Ingenio",
                         ].map((opt) => (
@@ -1516,7 +1516,7 @@ export default function App() {
               onClick={() => setShowRoutesModal(true)}
               className={`${UI_CLASSES.buttonOutline} shrink-0 z-10`}
             >
-              Ver Rutas y Trekking
+              Ver rutas y Trekking
             </button>
           </div>
 
@@ -1593,7 +1593,7 @@ export default function App() {
                 <div key={item.id} className="px-4">
                   <div
                     className="group flex flex-col bg-transparent border border-[#C8A96E]/20 hover:border-[#C8A96E] transition-colors cursor-pointer"
-                    onClick={() => setSelectedMerch(item)}
+                    onClick={() => setSelectedmerch(item)}
                   >
                     <div className="relative aspect-[4/3] overflow-hidden border-b border-[#C8A96E]/20 p-8 flex items-center justify-center">
                       <img
