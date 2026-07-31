@@ -96,18 +96,29 @@ const Reviews = () => {
   return (
     <div className="flex flex-col items-center w-full max-w-7xl mx-auto min-w-0">
       {placeInfo.total > 0 && (
-        <div className="flex items-center gap-4 mb-16 bg-black/40 backdrop-blur-md px-6 py-3 rounded-full border border-[#C8A96E]/20">
-          <div className="flex gap-1 text-[#C8A96E]">
-            {[...Array(5)].map((_, i) => (
-              <svg key={i} xmlns="http://www.svg.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-            ))}
+        <div className="flex flex-col md:flex-row items-center gap-4 mb-16">
+          <div className="flex items-center gap-4 bg-black/40 backdrop-blur-md px-6 py-3 rounded-full border border-[#C8A96E]/20">
+            <div className="flex gap-1 text-[#C8A96E]">
+              {[...Array(5)].map((_, i) => (
+                <svg key={i} xmlns="http://www.svg.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+              ))}
+            </div>
+            <span className="text-[#F0EDE6] font-['DM_Sans',sans-serif] text-sm">
+              {placeInfo.rating} de 5 basado en {placeInfo.total} reseñas
+            </span>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" className="w-5 h-5 ml-2" />
           </div>
-          <span className="text-[#F0EDE6] font-['DM_Sans',sans-serif] text-sm">
-            {placeInfo.rating} de 5 basado en {placeInfo.total} reseñas
-          </span>
-          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google Logo" className="w-5 h-5 ml-2" />
+          <a
+            href="https://search.google.com/local/writereview?placeid=ChIJ3X9Q0THQfJYR3aRiDFDnc1E"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center gap-2 bg-[#C8A96E] text-black px-6 py-3 rounded-full hover:bg-[#b0935e] transition-colors font-['DM_Sans',sans-serif] text-sm font-bold shadow-lg shadow-[#C8A96E]/20"
+          >
+            <svg xmlns="http://www.svg.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            Dejar una reseña
+          </a>
         </div>
       )}
 
