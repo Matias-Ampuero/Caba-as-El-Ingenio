@@ -1,4 +1,17 @@
 import Reviews from './Reviews';
+import img_embalse_yeso from "../imports/optimizadas/Rutas/Glaciares/Embalse el yeso.jpg";
+import img_nieves_negras from "../imports/optimizadas/Rutas/Glaciares/Glacias nieves negras .jpg";
+import img_laguna_rubilla from "../imports/optimizadas/Rutas/Glaciares/laguna rubilla .jpg";
+import img_sector_morado from "../imports/optimizadas/Rutas/Glaciares/sector el morado .jpeg";
+import img_termas_colina from "../imports/optimizadas/Rutas/Termas/Termas valle de colina .jpg";
+import img_tour_2 from "../imports/optimizadas/Rutas/Glaciares/Tours y treking2.png";
+import img_tour_9 from "../imports/optimizadas/Rutas/Glaciares/Tours y treking9.png";
+
+import img_laguna_negra from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra.jpeg";
+import img_laguna_negra_2 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/LAGUNA NEGRA 2.jpeg";
+import img_laguna_negra_3 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 3.jpeg";
+import img_laguna_negra_4 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 4.jpeg";
+import img_laguna_negra_5 from "../imports/optimizadas/Rutas/LAGUNA NEGRA/Laguna negra 5.jpeg";
 import React, { useState, useEffect } from "react";
 import {
   Calendar,
@@ -65,82 +78,6 @@ import w_fotosdeservicioycomida_13 from "../imports/optimizadas/Fotos de servici
 import w_fotosdeservicioycomida_14 from "../imports/optimizadas/Fotos de servicio y comida/tour y treking 95.webp";
 import w_fotosdeservicioycomida_15 from "../imports/optimizadas/Fotos de servicio y comida/tours y treking 93.webp";
 import w_fotosdeservicioycomida_16 from "../imports/optimizadas/Fotos de servicio y comida/tours y trekking 97.webp";
-import w_tourytrekking_0 from "../imports/optimizadas/Tour y trekking/Tours y treking1.webp";
-import w_tourytrekking_1 from "../imports/optimizadas/Tour y trekking/Tours y treking11.webp";
-import w_tourytrekking_2 from "../imports/optimizadas/Tour y trekking/Tours y treking12.webp";
-import w_tourytrekking_3 from "../imports/optimizadas/Tour y trekking/Tours y treking13.webp";
-import w_tourytrekking_4 from "../imports/optimizadas/Tour y trekking/Tours y treking14.webp";
-import w_tourytrekking_5 from "../imports/optimizadas/Tour y trekking/Tours y treking15.webp";
-import w_tourytrekking_6 from "../imports/optimizadas/Tour y trekking/Tours y treking16.webp";
-import w_tourytrekking_7 from "../imports/optimizadas/Tour y trekking/Tours y treking17.webp";
-import w_tourytrekking_8 from "../imports/optimizadas/Tour y trekking/Tours y treking18.webp";
-import w_tourytrekking_9 from "../imports/optimizadas/Tour y trekking/Tours y treking19.webp";
-import w_tourytrekking_10 from "../imports/optimizadas/Tour y trekking/Tours y treking2.webp";
-import w_tourytrekking_11 from "../imports/optimizadas/Tour y trekking/Tours y treking20.webp";
-import w_tourytrekking_12 from "../imports/optimizadas/Tour y trekking/Tours y treking21.webp";
-import w_tourytrekking_13 from "../imports/optimizadas/Tour y trekking/Tours y treking22.webp";
-import w_tourytrekking_14 from "../imports/optimizadas/Tour y trekking/Tours y treking24.webp";
-import w_tourytrekking_15 from "../imports/optimizadas/Tour y trekking/Tours y treking25.webp";
-import w_tourytrekking_16 from "../imports/optimizadas/Tour y trekking/Tours y treking26.webp";
-import w_tourytrekking_17 from "../imports/optimizadas/Tour y trekking/Tours y treking3.webp";
-import w_tourytrekking_18 from "../imports/optimizadas/Tour y trekking/Tours y treking30.webp";
-import w_tourytrekking_19 from "../imports/optimizadas/Tour y trekking/Tours y treking31.webp";
-import w_tourytrekking_20 from "../imports/optimizadas/Tour y trekking/Tours y treking33.webp";
-import w_tourytrekking_21 from "../imports/optimizadas/Tour y trekking/Tours y treking34.webp";
-import w_tourytrekking_22 from "../imports/optimizadas/Tour y trekking/Tours y treking35.webp";
-import w_tourytrekking_23 from "../imports/optimizadas/Tour y trekking/Tours y treking36.webp";
-import w_tourytrekking_24 from "../imports/optimizadas/Tour y trekking/Tours y treking37.webp";
-import w_tourytrekking_25 from "../imports/optimizadas/Tour y trekking/Tours y treking38.webp";
-import w_tourytrekking_26 from "../imports/optimizadas/Tour y trekking/Tours y treking39.webp";
-import w_tourytrekking_27 from "../imports/optimizadas/Tour y trekking/Tours y treking4.webp";
-import w_tourytrekking_28 from "../imports/optimizadas/Tour y trekking/Tours y treking41.webp";
-import w_tourytrekking_29 from "../imports/optimizadas/Tour y trekking/Tours y treking42.webp";
-import w_tourytrekking_30 from "../imports/optimizadas/Tour y trekking/Tours y treking43.webp";
-import w_tourytrekking_31 from "../imports/optimizadas/Tour y trekking/Tours y treking44.webp";
-import w_tourytrekking_32 from "../imports/optimizadas/Tour y trekking/Tours y treking45.webp";
-import w_tourytrekking_33 from "../imports/optimizadas/Tour y trekking/Tours y treking46.webp";
-import w_tourytrekking_34 from "../imports/optimizadas/Tour y trekking/Tours y treking47.webp";
-import w_tourytrekking_35 from "../imports/optimizadas/Tour y trekking/Tours y treking48.webp";
-import w_tourytrekking_36 from "../imports/optimizadas/Tour y trekking/Tours y treking49.webp";
-import w_tourytrekking_37 from "../imports/optimizadas/Tour y trekking/Tours y treking5.webp";
-import w_tourytrekking_38 from "../imports/optimizadas/Tour y trekking/Tours y treking50.webp";
-import w_tourytrekking_39 from "../imports/optimizadas/Tour y trekking/Tours y treking51.webp";
-import w_tourytrekking_40 from "../imports/optimizadas/Tour y trekking/Tours y treking52.webp";
-import w_tourytrekking_41 from "../imports/optimizadas/Tour y trekking/Tours y treking53.webp";
-import w_tourytrekking_42 from "../imports/optimizadas/Tour y trekking/Tours y treking54.webp";
-import w_tourytrekking_43 from "../imports/optimizadas/Tour y trekking/Tours y treking55.webp";
-import w_tourytrekking_44 from "../imports/optimizadas/Tour y trekking/Tours y treking56.webp";
-import w_tourytrekking_45 from "../imports/optimizadas/Tour y trekking/Tours y treking57.webp";
-import w_tourytrekking_46 from "../imports/optimizadas/Tour y trekking/Tours y treking58.webp";
-import w_tourytrekking_47 from "../imports/optimizadas/Tour y trekking/Tours y treking59.webp";
-import w_tourytrekking_48 from "../imports/optimizadas/Tour y trekking/Tours y treking6.webp";
-import w_tourytrekking_49 from "../imports/optimizadas/Tour y trekking/Tours y treking60.webp";
-import w_tourytrekking_50 from "../imports/optimizadas/Tour y trekking/Tours y treking61.webp";
-import w_tourytrekking_51 from "../imports/optimizadas/Tour y trekking/Tours y treking62.webp";
-import w_tourytrekking_52 from "../imports/optimizadas/Tour y trekking/Tours y treking63.webp";
-import w_tourytrekking_53 from "../imports/optimizadas/Tour y trekking/Tours y treking64.webp";
-import w_tourytrekking_54 from "../imports/optimizadas/Tour y trekking/Tours y treking65.webp";
-import w_tourytrekking_55 from "../imports/optimizadas/Tour y trekking/Tours y treking66.webp";
-import w_tourytrekking_56 from "../imports/optimizadas/Tour y trekking/Tours y treking67.webp";
-import w_tourytrekking_57 from "../imports/optimizadas/Tour y trekking/Tours y treking68.webp";
-import w_tourytrekking_58 from "../imports/optimizadas/Tour y trekking/Tours y treking69.webp";
-import w_tourytrekking_59 from "../imports/optimizadas/Tour y trekking/Tours y treking7.webp";
-import w_tourytrekking_60 from "../imports/optimizadas/Tour y trekking/Tours y treking70.webp";
-import w_tourytrekking_61 from "../imports/optimizadas/Tour y trekking/Tours y treking72.webp";
-import w_tourytrekking_62 from "../imports/optimizadas/Tour y trekking/Tours y treking73.webp";
-import w_tourytrekking_63 from "../imports/optimizadas/Tour y trekking/Tours y treking74.webp";
-import w_tourytrekking_64 from "../imports/optimizadas/Tour y trekking/Tours y treking75.webp";
-import w_tourytrekking_65 from "../imports/optimizadas/Tour y trekking/Tours y treking76.webp";
-import w_tourytrekking_66 from "../imports/optimizadas/Tour y trekking/Tours y treking77.webp";
-import w_tourytrekking_67 from "../imports/optimizadas/Tour y trekking/Tours y treking78.webp";
-import w_tourytrekking_68 from "../imports/optimizadas/Tour y trekking/Tours y treking79.webp";
-import w_tourytrekking_69 from "../imports/optimizadas/Tour y trekking/Tours y treking8.webp";
-import w_tourytrekking_70 from "../imports/optimizadas/Tour y trekking/Tours y treking80.webp";
-import w_tourytrekking_71 from "../imports/optimizadas/Tour y trekking/Tours y treking81.webp";
-import w_tourytrekking_72 from "../imports/optimizadas/Tour y trekking/Tours y treking82.webp";
-import w_tourytrekking_73 from "../imports/optimizadas/Tour y trekking/Tours y treking83.webp";
-import w_tourytrekking_74 from "../imports/optimizadas/Tour y trekking/Tours y treking84.webp";
-import w_tourytrekking_75 from "../imports/optimizadas/Tour y trekking/Tours y treking9.webp";
 
 import heroBg from "../imports/optimizadas/Seccion nosotros/cajon_del_maipo_nevado.jpg";
 import logoImg from "../imports/logo_transparente.png";
@@ -165,14 +102,7 @@ import nos16 from "../imports/optimizadas/Seccion nosotros/tours y treking 92.we
 import nos17 from "../imports/optimizadas/Seccion nosotros/tours y treking 94.webp";
 import nos18 from "../imports/optimizadas/Seccion nosotros/tours y treking 99.webp";
 import nos19 from "../imports/optimizadas/Seccion nosotros/tours y trekking 98.webp";
-import tour_laguna_negra from "../imports/optimizadas/Tour y trekking/Laguna negra .jpg";
-import tour_embalse_yeso from "../imports/optimizadas/Tour y trekking/Embalse el yeso.jpg";
-import tour_nieves_negras from "../imports/optimizadas/Tour y trekking/Glacias nieves negras .jpg";
-import tour_laguna_rubilla from "../imports/optimizadas/Tour y trekking/laguna rubilla .jpg";
-import tour_sector_morado from "../imports/optimizadas/Tour y trekking/sector el morado .jpeg";
-import tour_termas_colina from "../imports/optimizadas/Tour y trekking/Termas valle de colina .jpg";
-import tour_banos_morales from "../imports/optimizadas/Tour y trekking/Baños morales .webp";
-import tour_trekking_38 from "../imports/optimizadas/Tour y trekking/Tours y treking38.webp";
+import tour_trekking_38 from "../imports/optimizadas/Tour y trekking/Tours y treking38.png";
 
 
 
@@ -238,12 +168,12 @@ const ACCOMMODATIONS = [
       "Tinaja de agua caliente (Adicional)",
     ],
     images: [
+      w_domoestrellado_4,
       w_domoestrellado_3,
       w_domoestrellado_2,
       w_domoestrellado_9,
       w_domoestrellado_0,
       w_domoestrellado_1,
-      w_domoestrellado_4,
       w_domoestrellado_5,
       w_domoestrellado_6,
       w_domoestrellado_7,
@@ -331,7 +261,6 @@ import tazon_enl_6 from "../imports/optimizadas/Merch/Tazon_Enlozado6.jpeg";
 import tazon_enl_7 from "../imports/optimizadas/Merch/Tazon_Enlozado7.jpeg";
 import tazon_enl_8 from "../imports/optimizadas/Merch/Tazon_Enlozado 8.jpeg";
 import tazon_enl_9 from "../imports/optimizadas/Merch/Tazon_Enlozado9.jpeg";
-import tazon_enl_10 from "../imports/optimizadas/Merch/Tazon_Enlozado10.jpeg";
 
 import termo_1 from "../imports/optimizadas/Merch/Termos.jpeg";
 import termo_2 from "../imports/optimizadas/Merch/termo.jpeg";
@@ -397,7 +326,7 @@ const MERCH_ITEMS = [
     id: 9,
     name: "Tazón Enlozado",
     price: "$5.000",
-    images: [tazon_enl_1, tazon_enl_2, tazon_enl_3, tazon_enl_4, tazon_enl_5, tazon_enl_6, tazon_enl_7, tazon_enl_8, tazon_enl_9, tazon_enl_10],
+    images: [tazon_enl_1, tazon_enl_2, tazon_enl_3, tazon_enl_4, tazon_enl_5, tazon_enl_6, tazon_enl_7, tazon_enl_8, tazon_enl_9],
     desc: "Tazón enlozado tradicional, liviano y muy resistente para camping.",
   },
   {
@@ -459,23 +388,42 @@ const EXPEDITIONS = [
     desc: "Expedición guiada de aproximadamente 6 horas de duración. Recorreremos senderos ocultos hasta llegar a una de las lagunas más imponentes de la zona central.",
     difficulty: "Dificultad Media",
     duration: "6 Horas",
-    images: [tour_laguna_negra, tour_trekking_38]
+    images: [img_laguna_negra, img_laguna_negra_2, img_laguna_negra_3, img_laguna_negra_4, img_laguna_negra_5]
   },
   {
     title: "Glaciares y Valles",
     desc: "Visitaremos el sector de Morados, el Valle La Engorda, el histórico Refugio Plantat, la Laguna Rubilla y culminaremos con la vista del majestuoso Glaciar Nieves Negras.",
     difficulty: "Dificultad Alta",
     duration: "Día Completo",
-    images: [tour_embalse_yeso, tour_nieves_negras, tour_laguna_rubilla, tour_sector_morado, w_tourytrekking_75]
+    images: [img_embalse_yeso, img_nieves_negras, img_laguna_rubilla, img_sector_morado, img_tour_9]
   },
   {
     title: "Termas y Atractivos",
     desc: "Un recorrido icónico por la cordillera. Pasaremos por el imponente Embalse El Yeso, la Cascada Velo de la Novia, Baños Morales y cerraremos con un merecido relajo en las Termas Valle de Colina.",
     difficulty: "Dificultad Baja",
     duration: "Todo el Día",
-    images: [tour_termas_colina, w_tourytrekking_10, tour_banos_morales]
+    images: [img_termas_colina, img_tour_2]
   }
 ];
+
+const generalTourImages = Object.values(
+  import.meta.glob('../imports/optimizadas/Tour y trekking/*.{png,jpg,jpeg,webp}', { eager: true, import: 'default' })
+).filter(img => {
+  const src = typeof img === 'string' ? img : (img && (img as any).default ? (img as any).default : String(img));
+  const s = decodeURIComponent(src).toLowerCase();
+  return !s.includes('baños morales') && 
+         !s.includes('ban%cc%83os morales') &&
+         !s.includes('baños morales') &&
+         !s.includes('embalse el yeso') && 
+         !s.includes('nieves negras') && 
+         !s.includes('laguna negra') && 
+         !s.includes('termas valle') && 
+         !s.includes('treking2.') && 
+         !s.includes('treking9.') && 
+         !s.includes('treking38.') && 
+         !s.includes('laguna rubilla') && 
+         !s.includes('sector el morado');
+}) as string[];
 
 export default function App() {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 1200);
@@ -616,7 +564,7 @@ export default function App() {
       className={`min-h-screen w-full overflow-x-hidden text-[#F0EDE6] ${UI_CLASSES.body} selection:bg-[#C8A96E] selection:text-black relative`}
     >
       {/* Background Image Layer */}
-      <div 
+      <div
         className="fixed inset-0 bg-cover bg-center z-0"
         style={{ backgroundImage: `url('${heroBg}')` }}
       />
@@ -657,11 +605,10 @@ export default function App() {
                     <button
                       key={idx}
                       onClick={() => setActiveExpedition(idx)}
-                      className={`text-left px-6 py-4 border transition-all text-sm uppercase tracking-widest ${
-                        activeExpedition === idx
-                          ? "border-[#C8A96E] text-[#C8A96E] bg-[#C8A96E]/5"
-                          : "border-[#9A9690]/30 text-[#9A9690] hover:border-[#C8A96E]/50"
-                      }`}
+                      className={`text-left px-6 py-4 border transition-all text-sm uppercase tracking-widest ${activeExpedition === idx
+                        ? "border-[#C8A96E] text-[#C8A96E] bg-[#C8A96E]/5"
+                        : "border-[#9A9690]/30 text-[#9A9690] hover:border-[#C8A96E]/50"
+                        }`}
                     >
                       {exp.title}
                     </button>
@@ -762,8 +709,8 @@ export default function App() {
                         alt={item.name}
                         className="h-full w-full object-contain transition-transform duration-700 group-hover:scale-105"
                       />
-                    
-                  
+
+
                     </div>
                     <div className="p-8 text-center flex flex-col items-center">
                       <h3 className="mb-4 text-xs font-['DM_Sans',sans-serif] uppercase tracking-[0.15em] text-[#F0EDE6]">
@@ -814,7 +761,7 @@ export default function App() {
                 </button>
               </>
             )}
-            
+
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[95vw] h-[85vh] md:h-[95vh] z-[205] flex items-center justify-center pointer-events-none">
               {lightbox.images[lightbox.index].endsWith('.mp4') ? (
                 <video
@@ -1108,7 +1055,7 @@ export default function App() {
                   Experiencias
                 </li>
               </ul>
-              <button 
+              <button
                 className="text-[#C8A96E] md:hidden"
                 onClick={() => setIsMobileMenuOpen(true)}
               >
@@ -1118,10 +1065,10 @@ export default function App() {
           </nav>
 
           {/* Mobile Menu Overlay */}
-          <div 
+          <div
             className={`fixed inset-0 bg-[#1C1F1A]/95 backdrop-blur-xl z-[100] transition-transform duration-500 ease-in-out flex flex-col items-center justify-center ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"} md:hidden`}
           >
-            <button 
+            <button
               className="absolute top-8 right-6 text-[#C8A96E]"
               onClick={() => setIsMobileMenuOpen(false)}
             >
@@ -1593,84 +1540,7 @@ export default function App() {
               nextArrow={<NextArrow />}
               prevArrow={<PrevArrow />}
             >
-              {[
-                w_tourytrekking_0,
-                w_tourytrekking_1,
-                w_tourytrekking_2,
-                w_tourytrekking_3,
-                w_tourytrekking_4,
-                w_tourytrekking_5,
-                w_tourytrekking_6,
-                w_tourytrekking_7,
-                w_tourytrekking_8,
-                w_tourytrekking_9,
-                w_tourytrekking_10,
-                w_tourytrekking_11,
-                w_tourytrekking_12,
-                w_tourytrekking_13,
-                w_tourytrekking_14,
-                w_tourytrekking_15,
-                w_tourytrekking_16,
-                w_tourytrekking_17,
-                w_tourytrekking_18,
-                w_tourytrekking_19,
-                w_tourytrekking_20,
-                w_tourytrekking_21,
-                w_tourytrekking_22,
-                w_tourytrekking_23,
-                w_tourytrekking_24,
-                w_tourytrekking_25,
-                w_tourytrekking_26,
-                w_tourytrekking_27,
-                w_tourytrekking_28,
-                w_tourytrekking_29,
-                w_tourytrekking_30,
-                w_tourytrekking_31,
-                w_tourytrekking_32,
-                w_tourytrekking_33,
-                w_tourytrekking_34,
-                w_tourytrekking_35,
-                w_tourytrekking_36,
-                w_tourytrekking_37,
-                w_tourytrekking_38,
-                w_tourytrekking_39,
-                w_tourytrekking_40,
-                w_tourytrekking_41,
-                w_tourytrekking_42,
-                w_tourytrekking_43,
-                w_tourytrekking_44,
-                w_tourytrekking_45,
-                w_tourytrekking_46,
-                w_tourytrekking_47,
-                w_tourytrekking_48,
-                w_tourytrekking_49,
-                w_tourytrekking_50,
-                w_tourytrekking_51,
-                w_tourytrekking_52,
-                w_tourytrekking_53,
-                w_tourytrekking_54,
-                w_tourytrekking_55,
-                w_tourytrekking_56,
-                w_tourytrekking_57,
-                w_tourytrekking_58,
-                w_tourytrekking_59,
-                w_tourytrekking_60,
-                w_tourytrekking_61,
-                w_tourytrekking_62,
-                w_tourytrekking_63,
-                w_tourytrekking_64,
-                w_tourytrekking_65,
-                w_tourytrekking_66,
-                w_tourytrekking_67,
-                w_tourytrekking_68,
-                w_tourytrekking_69,
-                w_tourytrekking_70,
-                w_tourytrekking_71,
-                w_tourytrekking_72,
-                w_tourytrekking_73,
-                w_tourytrekking_74,
-                w_tourytrekking_75,
-              ].map((img, idx, array) => (
+              {generalTourImages.map((img, idx, array) => (
                 <div
                   key={idx}
                   className="px-4 outline-none block"
@@ -1849,7 +1719,7 @@ export default function App() {
                 </h4>
                 <div className="flex items-center gap-6">
                   <a
-                    href="https://instagram.com/cabanas.elingenio"
+                    href="https://www.instagram.com/cabana.elingenio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
                     target="_blank"
                     rel="noreferrer"
                     className="flex items-center gap-4 text-sm hover:text-[#C8A96E] transition-colors group"
