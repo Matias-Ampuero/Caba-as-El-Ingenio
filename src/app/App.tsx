@@ -435,6 +435,8 @@ const generalTourImages = Object.values(
          !s.includes('treking_94') &&
          !s.includes('treking_95') &&
          !s.includes('trekking_96') &&
+         !s.includes('trekking_97') &&
+         !s.includes('trekking_98') &&
          !s.includes('treking_99');
 }) as string[];
 
