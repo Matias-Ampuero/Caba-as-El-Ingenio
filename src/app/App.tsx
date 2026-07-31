@@ -422,7 +422,20 @@ const generalTourImages = Object.values(
          !s.includes('treking9.') && 
          !s.includes('treking38.') && 
          !s.includes('laguna rubilla') && 
-         !s.includes('sector el morado');
+         !s.includes('sector el morado') &&
+         !s.includes('treking_85') &&
+         !s.includes('treking_86') &&
+         !s.includes('treking_87') &&
+         !s.includes('treking_88') &&
+         !s.includes('treking_89') &&
+         !s.includes('treking_90') &&
+         !s.includes('treking_91') &&
+         !s.includes('treking_92') &&
+         !s.includes('treking_93') &&
+         !s.includes('treking_94') &&
+         !s.includes('treking_95') &&
+         !s.includes('trekking_96') &&
+         !s.includes('treking_99');
 }) as string[];
 
 export default function App() {
