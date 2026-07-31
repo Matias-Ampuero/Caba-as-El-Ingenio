@@ -120,13 +120,13 @@ const TiktokIcon = (props: React.SVGProps<SVGSVGElement>) => (
 const ACCOMMODATIONS = [
   {
     id: "marmolejo",
-    name: "domo_marmolejo",
+    name: "Domo Marmolejo",
     capacity: "2 A 4 PERSONAS",
     price: "$70.000",
     shortDesc:
       "Vive una experiencia única bajo las estrellas. Cuenta con cama matrimonial en 2do nivel, dos camas individuales...",
     longDesc:
-      "Escápate de la rutina y vive una experiencia inolvidable en nuestro domo_marmolejo. Diseñado para recibir hasta 4 personas, es el lugar perfecto para conectar con la naturaleza sin perder comodidad. Relájate bajo las estrellas en nuestra tinaja de agua caliente y descubre los increíbles paisajes del Cajón del Maipo.",
+      "Escápate de la rutina y vive una experiencia inolvidable en nuestro Domo Marmolejo. Diseñado para recibir hasta 4 personas, es el lugar perfecto para conectar con la naturaleza sin perder comodidad. Relájate bajo las estrellas en nuestra tinaja de agua caliente y descubre los increíbles paisajes del Cajón del Maipo.",
     amenities: [
       "Cama matrimonial (2do nivel)",
       "Dos camas individuales (1er piso)",
@@ -437,8 +437,10 @@ export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [checkIn, setCheckIn] = useState("");
   const [checkOut, setCheckOut] = useState("");
+  const [showReviewsModal, setShowReviewsModal] = useState(false);
+  const [alojamiento, setAlojamiento] = useState("Domo Marmolejo");
+  const [fechaCheckIn, setFechaCheckIn] = useState("");
   const [huespedes, setHuespedes] = useState("2 Personas");
-  const [alojamiento, setAlojamiento] = useState("domo_marmolejo");
 
   const [selectedRefugio, setSelectedRefugio] = useState<
     (typeof ACCOMMODATIONS)[0] | null
@@ -1156,7 +1158,7 @@ export default function App() {
                       </label>
                       <div className="space-y-4 mb-10 mt-6">
                         {[
-                          "domo_marmolejo",
+                          "Domo Marmolejo",
                           "Domo Estrellado",
                           "Cabaña El Ingenio",
                         ].map((opt) => (
